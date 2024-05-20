@@ -35,8 +35,8 @@ body {
 
 .custom-navbar {
   background-image: linear-gradient(to right, #215373, #3d7b81, #4a8e8c) !important;
-  margin-top: 2rem;
-  height: 4.5rem;
+  margin-top: 0.5rem;
+  height: 2rem;
   width: 97%;
   margin-left: auto; /* Căn giữa theo chiều ngang */
   margin-right: auto; /* Căn giữa theo chiều ngang */
@@ -255,6 +255,9 @@ body {
   }
 }
 @media (min-width: 1820px) {
+  .wrapper {
+    width: 86%;
+  }
   .content-ft-1 {
     margin-left: 0;
   }
