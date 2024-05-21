@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="/img/Favision.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/layout/AfterSignin.css" />
+    <link rel="stylesheet" href="/css/ViewActive/ChiTietLopHocSV.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,200;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <!-- icon -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <style>
+    </style>
+  </head>
+  <body>
+    <div id="nav-bar">
+      <input id="nav-toggle" type="checkbox" />
+      <div id="nav-header">
+        <a id="nav-title" href="#" target="_blank"><img src="/img/logo.svg" alt="Logo" /></a>
+        <hr />
+      </div>
+      <div id="nav-content">
+        <div class="nav-button">
+          <a href="#"><a><i class='bx bx-home-alt'></i><span>Trang chủ</span></a>
+        </div>
+        <div class="nav-button"><a></a><i class='bx bxs-contact'></i><span>Liên hệ</span></a></div>
+        <div class="nav-button"><i class='bx bxs-food-menu'></i><span>Đào tạo</span></div>
+        <hr />
+        <div class="nav-button"><a></a><i class='bx bx-medal'></i><span>Cuộc thi</span></a></div>
+        <div class="nav-button"><a></a><i class='bx bxs-bookmark-alt-minus'></i><span>Khóa học</span></a></div>
+        <div class="nav-button"><i class='bx bx-customize'></i><span>Hệ thống</span></a></div>
+        <div class="nav-button"><i class='bx bx-laptop'></i><span>Lớp học của tôi</span></a></div>
+        <hr />
+        <div class="nav-button"><i class='bx bxs-user-detail'></i><span>Thông tin cá nhân</span></a></div>
+        <div id="nav-content-highlight"></div>
+      </div>
+    </div>
+    <div class="main">
+      <header>
+        <div class="topbar">
+        <div class="toggle">
+          <button class="btn btn-default" id="menu-toggle">
+            <i class="fas fa-bars" style="padding-left: 4px; padding-right: 4px;"></i>
+          </button>
+        </div>
+        <div class="search">
+          <label>
+            <input type="text" placeholder="Search here" />
+            <ion-icon name="search-outline"></ion-icon>
+          </label>
+        </div>
+        <div class="user">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/img/Khac/Meo.jpg" /></button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Cài đặt</a>
+              <a class="dropdown-item" href="#">Thông tin</a>
+              <a class="dropdown-item" href="#">Đăng xuất</a>
+            </div>
+          </div>       
+      </header>
+         
+        <div class="content mt-5">
+          <!-- code màn hinh giang viên -->
+          <div class="col">
+              <!-- code hien thi lop -->
+              <div class="container mt-5">
+                <div class="row group-lophoc-HT d-flex">
+                  <div class="col-md-6 thongtin-giaovien--LH">
+                    <p>Lớp Học:</p>
+                    <p>Giảng viên:</p>
+                  </div>
+                  <div class="col-md-6 thongtin-giaovien--LH2 ">
+                    <p>Ngày bắt đầu:</p>
+                    <p>Ngày kết thúc:</p>
+                  </div>
+                </div>
+              </div>
+      <div class="container mt-5">
+        <div class="card"> 
+          <div class="card-header" style="background-color: rgb(223, 242, 243)!important;;">
+             <ul class="nav nav-tabs mt-4">
+            <li class="nav-item">
+                <a class="nav-link active btn-primary" href="#buoihoc">Buổi học</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#thaoluan">Thảo luận</a>
+            </li>
+        </ul>
+          </div>
+          <!-- một buổi học -->
+          <div class="card-body"> 
+          <div class="lesson" id="lesson_687">
+            <a class="lesson-toggle" data-toggle="collapse" href="#lesson_687_content" role="button" aria-expanded="false" aria-controls="lesson_687_content">
+                <span class="badge badge-danger">1.</span>
+                <span class="badge badge-info" id="lesson_687_date">18/09/2023</span>
+                <span id="lesson_687_name">Bài tập 1</span> 
+            </a>
+            <div class="collapse" id="lesson_687_content">
+                <!-- Nội dung của bài học ở đây -->
+                <div class="card card-primary card-outline card-tabs collapse show" id="baigiang-692-content" style="">
+                  <div class="card-header p-0 pt-1 border-bottom-0">
+                      <ul class="nav nav-tabs" id="lesson-692-tab" role="tablist">
+                          <li class="nav-item">
+                              <a class="nav-link active" id="lesson-692-intro-tab" data-toggle="pill" href="#lesson-692-intro" role="tab" aria-controls="lesson-692-intro" aria-selected="true">Nội dung buổi học</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-home-tab" data-toggle="pill" href="#lesson-692-home" role="tab" aria-controls="lesson-692-home" aria-selected="true">Trực tuyến</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-profile-tab" data-toggle="pill" href="#lesson-692-profile" role="tab" aria-controls="lesson-692-profile" aria-selected="false">Tài liệu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-messages-tab" data-toggle="pill" href="#lesson-692-messages" role="tab" aria-controls="lesson-692-messages" aria-selected="false">Kiểm tra</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-settings-tab" data-toggle="pill" href="#lesson-692-settings" role="tab" aria-controls="lesson-692-settings" aria-selected="false">Bài tập</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="card-body">
+                      <div class="tab-content" id="lesson-692-tabContent">
+                          <div class="tab-pane fade show active" id="lesson-692-intro" role="tabpanel" aria-labelledby="lesson-692-intro-tab">
+                              <!-- Nội dung buổi học ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-home" role="tabpanel" aria-labelledby="lesson-692-home-tab">
+                              <!-- Nội dung trực tuyến ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-profile" role="tabpanel" aria-labelledby="lesson-692-profile-tab">
+                              <!-- Danh sách tài liệu ở đây -->
+                              <ul>
+                                  
+                              </ul>
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-messages" role="tabpanel" aria-labelledby="lesson-692-messages-tab">
+                              <!-- Nội dung kiểm tra ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-settings" role="tabpanel" aria-labelledby="lesson-692-settings-tab">
+                              <!-- Nội dung bài tập ở đây -->
+                              <div class="panel panel-info">
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+            </div>
+        </div>     
+           <!--  -->
+           
+           <div class="lesson" id="lesson_687">
+            <a class="lesson-toggle" data-toggle="collapse" href="#lesson_687_content" role="button" aria-expanded="false" aria-controls="lesson_687_content">
+                <span class="badge badge-danger">1.</span>
+                <span class="badge badge-info" id="lesson_687_date">18/09/2023</span>
+                <span id="lesson_687_name">Bài tập 1</span> 
+            </a>
+            <div class="collapse" id="lesson_687_content">
+                <!-- Nội dung của bài học ở đây -->
+                <div class="card card-primary card-outline card-tabs collapse show" id="baigiang-692-content" style="">
+                  <div class="card-header p-0 pt-1 border-bottom-0">
+                      <ul class="nav nav-tabs" id="lesson-692-tab" role="tablist">
+                          <li class="nav-item">
+                              <a class="nav-link active" id="lesson-692-intro-tab" data-toggle="pill" href="#lesson-692-intro" role="tab" aria-controls="lesson-692-intro" aria-selected="true">Nội dung buổi học</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-home-tab" data-toggle="pill" href="#lesson-692-home" role="tab" aria-controls="lesson-692-home" aria-selected="true">Trực tuyến</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-profile-tab" data-toggle="pill" href="#lesson-692-profile" role="tab" aria-controls="lesson-692-profile" aria-selected="false">Tài liệu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-messages-tab" data-toggle="pill" href="#lesson-692-messages" role="tab" aria-controls="lesson-692-messages" aria-selected="false">Kiểm tra</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-settings-tab" data-toggle="pill" href="#lesson-692-settings" role="tab" aria-controls="lesson-692-settings" aria-selected="false">Bài tập</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="card-body">
+                      <div class="tab-content" id="lesson-692-tabContent">
+                          <div class="tab-pane fade show active" id="lesson-692-intro" role="tabpanel" aria-labelledby="lesson-692-intro-tab">
+                              <!-- Nội dung buổi học ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-home" role="tabpanel" aria-labelledby="lesson-692-home-tab">
+                              <!-- Nội dung trực tuyến ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-profile" role="tabpanel" aria-labelledby="lesson-692-profile-tab">
+                              <!-- Danh sách tài liệu ở đây -->
+                              <ul>
+                                  
+                              </ul>
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-messages" role="tabpanel" aria-labelledby="lesson-692-messages-tab">
+                              <!-- Nội dung kiểm tra ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-settings" role="tabpanel" aria-labelledby="lesson-692-settings-tab">
+                              <!-- Nội dung bài tập ở đây -->
+                              <div class="panel panel-info">
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+            </div>
+        </div>     
+        <div class="lesson" id="lesson_687">
+            <a class="lesson-toggle" data-toggle="collapse" href="#lesson_687_content" role="button" aria-expanded="false" aria-controls="lesson_687_content">
+                <span class="badge badge-danger">1.</span>
+                <span class="badge badge-info" id="lesson_687_date">18/09/2023</span>
+                <span id="lesson_687_name">Bài tập 1</span> 
+            </a>
+            <div class="collapse" id="lesson_687_content">
+                <!-- Nội dung của bài học ở đây -->
+                <div class="card card-primary card-outline card-tabs collapse show" id="baigiang-692-content" style="">
+                  <div class="card-header p-0 pt-1 border-bottom-0">
+                      <ul class="nav nav-tabs" id="lesson-692-tab" role="tablist">
+                          <li class="nav-item">
+                              <a class="nav-link active" id="lesson-692-intro-tab" data-toggle="pill" href="#lesson-692-intro" role="tab" aria-controls="lesson-692-intro" aria-selected="true">Nội dung buổi học</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-home-tab" data-toggle="pill" href="#lesson-692-home" role="tab" aria-controls="lesson-692-home" aria-selected="true">Trực tuyến</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-profile-tab" data-toggle="pill" href="#lesson-692-profile" role="tab" aria-controls="lesson-692-profile" aria-selected="false">Tài liệu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-messages-tab" data-toggle="pill" href="#lesson-692-messages" role="tab" aria-controls="lesson-692-messages" aria-selected="false">Kiểm tra</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="lesson-692-settings-tab" data-toggle="pill" href="#lesson-692-settings" role="tab" aria-controls="lesson-692-settings" aria-selected="false">Bài tập</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="card-body">
+                      <div class="tab-content" id="lesson-692-tabContent">
+                          <div class="tab-pane fade show active" id="lesson-692-intro" role="tabpanel" aria-labelledby="lesson-692-intro-tab">
+                              <!-- Nội dung buổi học ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-home" role="tabpanel" aria-labelledby="lesson-692-home-tab">
+                              <!-- Nội dung trực tuyến ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-profile" role="tabpanel" aria-labelledby="lesson-692-profile-tab">
+                              <!-- Danh sách tài liệu ở đây -->
+                              <ul>
+                                  
+                              </ul>
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-messages" role="tabpanel" aria-labelledby="lesson-692-messages-tab">
+                              <!-- Nội dung kiểm tra ở đây -->
+                          </div>
+                          <div class="tab-pane fade" id="lesson-692-settings" role="tabpanel" aria-labelledby="lesson-692-settings-tab">
+                              <!-- Nội dung bài tập ở đây -->
+                              <div class="panel panel-info">
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+            </div>
+        </div>     
+          
+        </div>
+    </div>          
+          </div>
+        </div>
+        
+        <div id="buoihoc" class="tabcontent mt-4">
+            <!-- Nội dung cho buổi học -->
+        </div>
+        
+        <div id="thaoluan" class="tabcontent mt-4">
+            <!-- Nội dung cho thảo luận -->
+        </div>
+    </div>
+          </div>
+      </div>
+  </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', function () {
+        document.getElementById('nav-bar').classList.toggle('collapsed');
+        document.querySelector('.main').classList.toggle('collapsed');
+      });
+    </script>
+  </body>
+</html>
