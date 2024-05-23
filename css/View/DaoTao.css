@@ -1,0 +1,28 @@
+.btn-custom {
+  background-image: linear-gradient(to right, #215373, #c8dbc9);
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 0.5rem 1.3rem !important;
+  font-weight: 650 !important;
+}
+
+.title-top-daotao h3 {
+  font-weight: 700;
+  color: #1d4249;
+}
+
+.custom-rounded {
+  border-radius: 10px !important;
+}
+.custom-rounded img {
+  cursor: pointer;
+}
+.custom-rounded p {
+  color: #1d4249;
+}
+
+@media (max-width: 800px) {
+  .custom-rounded {
+    margin: 0 3rem;
+  }
+}

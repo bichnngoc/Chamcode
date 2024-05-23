@@ -1,0 +1,16 @@
+.tab__profile {
+  border-radius: 12px !important;
+  min-height: 400px;
+}
+.tab__profile .tab__profile--text {
+  font-weight: 550;
+  padding-left: 25px;
+}
+.tab__profile .tab__profile--text,
+a {
+  padding: 30px 0px;
+}
+.container__profile--layout-img,
+img {
+  border-radius: 50%;
+}
