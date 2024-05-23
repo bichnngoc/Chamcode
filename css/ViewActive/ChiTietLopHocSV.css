@@ -1,0 +1,22 @@
+.group-lophoc-HT {
+  background-image: linear-gradient(to right, #29b3dd, #a1dff3);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0.8rem 0;
+  border-radius: 5px;
+  text-align: left;
+}
+.group-lophoc-HT .thongtin-giaovien--LH p {
+  color: white;
+  font-weight: 600;
+}
+.group-lophoc-HT .thongtin-giaovien--LH2 p {
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 990px) {
+  .group-lophoc-HT .thongtin-giaovien--LH2 p {
+    margin-left: 0;
+  }
+}
