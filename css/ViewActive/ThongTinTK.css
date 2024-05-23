@@ -14,3 +14,6 @@ a {
 img {
   border-radius: 50%;
 }
+.content__profile {
+  border-radius: 12px !important;
+}

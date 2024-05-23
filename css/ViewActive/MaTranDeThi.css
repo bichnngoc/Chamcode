@@ -1,0 +1,28 @@
+/* button */
+.btn__background-color1 {
+  background: #2babe3 !important;
+  color: white !important;
+  border-radius: 20px !important;
+  padding: 8px 14px !important;
+  font-weight: 500 !important;
+}
+.btn__background-color1:hover {
+  background: #4396da !important;
+}
+.btn__bg-defautl {
+  background: white !important;
+  color: rgb(9, 9, 9) !important;
+  border-radius: 20px !important;
+  padding: 8px 14px !important;
+  font-weight: 500 !important;
+  border: 1px solid #6f6d6d !important;
+}
+.btn__bg-defautl:hover {
+  border: navy !important;
+  background: #abafb5 !important;
+}
+
+/*  */
+.btn__thongtin_dethi {
+  float: right !important;
+}
