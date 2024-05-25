@@ -1,5 +1,6 @@
 /* button */
 .btn__background-color1 {
+  cursor: pointer;
   background: #2babe3 !important;
   color: white !important;
   border-radius: 20px !important;
@@ -10,6 +11,7 @@
   background: #4396da !important;
 }
 .btn__bg-defautl {
+  cursor: pointer;
   background: white !important;
   color: rgb(9, 9, 9) !important;
   border-radius: 20px !important;
@@ -23,6 +25,7 @@
 }
 
 /*  */
+
 .btn__thongtin_dethi {
   float: right !important;
 }

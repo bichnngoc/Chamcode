@@ -25,25 +25,39 @@
 }
 
 /*  */
-
-.m-label {
-  font-weight: bold;
+.img__LH--widget,
+img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
 }
-@media (max-width: 768px) {
-  .table-responsive td,
-  .table-responsive th {
-    display: block;
-    width: 100%;
-  }
-  .table-responsive tr {
-    margin-bottom: 15px;
-  }
+.LopHoc_widget {
+  transition: transform 0.3s;
+  margin-bottom: 20px;
 }
-.form__question--chude {
-  margin: auto !important;
-  width: 94%;
+.LopHoc_widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.form__question--header {
-  margin: auto !important;
-  width: 92%;
+.LopHoc_widget {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+.card__content--widget {
+  background-color: #2eb7e9;
+}
+.widget__title--LH {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card__content--LH {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content__danhsach-LH-KT {
+  display: none;
+}
+.content__danhsach-LH {
+  margin-top: 20px;
 }
