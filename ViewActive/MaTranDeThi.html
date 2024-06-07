@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="icon" href="/img/Favision.svg" type="image/x-icon" />
     <link rel="stylesheet" href="/css/layout/AfterSignin.css" />
-    <link rel="stylesheet" href="/css/ViewActive/ThongTinTK.css" />
+    <link rel="stylesheet" href="/css/ViewActive/MaTranDeThi.css" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,56 +68,78 @@
       </header>
          <!-- code content -->
          <div class="content mt-5">
-            <div class="row container__profile ml-3">
-            <div class="col-md-3 tab__profile mr-4 bg-white">
-                <div class="tab__profile--text ml-3">
-                <a class="font-bold" href="#">
-                    Thông tin cá nhân
-                </a><br>
-                <a class="font-bold" href="#">
-                    Đổi tên tài khoản
-                </a><br>
-                <a class="font-bold" href="#">
-                    Đổi mật khẩu
-                </a><br>
-                <a class="font-bold" href="#">
-                    Quản lí khác
-                </a>
-                </div>
+          <div class="container__hienthi--de">
+            <div class="row header__thongtin_dethi">
+                <div class="col-md-6 title__thongtin_dethi">
+                    <h3>Thông tin đề thi</h3>
+                 </div>
+                 <div class="col-md-6 text-right btn__thongtin_dethi">
+                    <button class="btn btn__background-color1">Tạo đề thi</button>
+                 </div>
             </div>
-            <div class="col-md-8 content__profile bg-white">
-                <h5 class="mt-3 title__profile">THÔNG TIN</h5>
-                <hr>
-               <div class="container__profile--layout row">
-                <div class="col-md-3 mt-3">
-                    <div class="container__profile--layout-img">
-                        <a><img src="/img/Khac/Meo.jpg" alt="frame-avatar" width="auto" height="70"></a>
+            <div class="card card-primary mt-4">
+                <div class="card-header">
+                    <div class="row card__Dethi--title">
+                        <div class="search">
+                        <label>
+                          <input type="text" />
+                        </label>
+                      </div>
+                      <div class="timkiem__Dethi">
+                        <button class="btn btn__background-color1">Tìm kiếm</button>
+                      </div>
                     </div>
                 </div>
-                <div class="container__profile--layout-title">
-                    <div class="profile__text row">
-                        <div class="profile__text--left">
-                            <p>Họ và tên:</p>
-                            <p>Ngày sinh:</p>
-                            <p>Số điện thoại:</p>
-                            <p>Địa chỉ Email:</p>
-                            <p>Facebook:</p>
-                            <p>Giơi tính:</p>
-                        </div>
-                        <div class="profile__text--right ml-3">
-                            <!-- điền thông tin -->
-                            <p>Phạm thu hà</p>
-                            <p>20/02/1999</p>
-                            <p>0987654321</p>
-                            <p>phamthuhai@</p>
-                            <p>rhjgjgk</p>
-                            <p>Nữ</p>
-                        </div>
-                    </div>
-                </div>
-               </div>
-            </div>
-            </div>
+
+                <div class="card-body content__Dethi">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Tên</th>
+                                <th class="d-none d-sm-table-cell text-left">Thời gian Thi</th>
+                                <th class="d-none d-sm-table-cell text-left">Số câu hỏi</th>
+                                <th class="d-none d-sm-table-cell">Ghi chú</th>
+                                <th class="d-none d-sm-table-cell" colspan="4" nowrap="" width="1%">Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Thêm dòng để hiển thị dữ liệu -->
+                            <tr>
+                                <td>
+                                    <div class="font-weight-bold">demo</div>
+                                    <div class="d-block d-sm-none">
+                                        <div>Thời gian làm bài: 1</div>
+                                        <div>Số câu: 6</div>
+                                        <!-- phần ghi chú mặc định null -->
+                                        <div>
+                                            <a class="mr-3" href="#"><i class="fas fa-edit" style="font-size: 16px;"></i></a>
+                                            <a onclick="confirmDelete()" href="#"><i class="far fa-trash-alt" style="font-size: 16px;"></i></a>
+                                        </div>
+                                        <!--  -->
+                                    </div>
+                                </td>
+                                <td class="d-none d-sm-table-cell">1</td>
+                                <td class="d-none d-sm-table-cell">6</td>
+                                <td class="d-none d-sm-table-cell"></td>
+                                <td class="d-none d-sm-table-cell text-center">
+                                    <a href="#"><i class="fas fa-edit" style="font-size: 16px;"></i></a>
+                                </td>
+                                <td class="d-none d-sm-table-cell text-center">
+                                    <a href="#"><i class="fas fa-diagnoses" style="font-size: 16px;"></i></a>
+                                </td>
+                                <td class="d-none d-sm-table-cell text-center">
+                                    <a href="#"><i class="fas fa-print" style="font-size: 16px;"></i></a>
+                                </td>
+                                <td class="d-none d-sm-table-cell text-center">
+                                    <a href="#"><i class="far fa-eye" style="font-size: 16px;"></i></a>
+                                </td>
+                                <td class="d-none d-sm-table-cell text-center">
+                                    <a onclick="confirmDelete()" href="#"><i class="far fa-trash-alt" style="font-size: 16px;"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>                
          </div>
          <!--  -->
     </div>

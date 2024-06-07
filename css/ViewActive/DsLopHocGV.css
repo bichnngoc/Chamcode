@@ -1,0 +1,63 @@
+/* button */
+.btn__background-color1 {
+  cursor: pointer;
+  background: #2babe3 !important;
+  color: white !important;
+  border-radius: 20px !important;
+  padding: 8px 14px !important;
+  font-weight: 500 !important;
+}
+.btn__background-color1:hover {
+  background: #4396da !important;
+}
+.btn__bg-defautl {
+  cursor: pointer;
+  background: white !important;
+  color: rgb(9, 9, 9) !important;
+  border-radius: 20px !important;
+  padding: 8px 14px !important;
+  font-weight: 500 !important;
+  border: 1px solid #6f6d6d !important;
+}
+.btn__bg-defautl:hover {
+  border: navy !important;
+  background: #abafb5 !important;
+}
+
+/*  */
+.img__LH--widget,
+img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+.LopHoc_widget {
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+.LopHoc_widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.LopHoc_widget {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+.card__content--widget {
+  background-color: #2eb7e9;
+}
+.widget__title--LH {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card__content--LH {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content__danhsach-LH-KT {
+  display: none;
+}
+.content__danhsach-LH {
+  margin-top: 20px;
+}

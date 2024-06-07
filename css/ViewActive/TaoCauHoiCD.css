@@ -1,0 +1,49 @@
+/* button */
+.btn__background-color1 {
+  cursor: pointer;
+  background: #2babe3 !important;
+  color: white !important;
+  border-radius: 20px !important;
+  padding: 8px 14px !important;
+  font-weight: 500 !important;
+}
+.btn__background-color1:hover {
+  background: #4396da !important;
+}
+.btn__bg-defautl {
+  cursor: pointer;
+  background: white !important;
+  color: rgb(9, 9, 9) !important;
+  border-radius: 20px !important;
+  padding: 8px 14px !important;
+  font-weight: 500 !important;
+  border: 1px solid #6f6d6d !important;
+}
+.btn__bg-defautl:hover {
+  border: navy !important;
+  background: #abafb5 !important;
+}
+
+/*  */
+
+.m-label {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .table-responsive td,
+  .table-responsive th {
+    display: block;
+    width: 100%;
+  }
+  .table-responsive tr {
+    margin-bottom: 15px;
+  }
+}
+.form__question--chude {
+  margin: auto !important;
+  width: 94%;
+}
+.form__question--header {
+  margin: auto !important;
+  width: 92%;
+}
